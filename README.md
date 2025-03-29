@@ -158,7 +158,6 @@ UPDATE planet SET star_id = 1 WHERE planet_id = 12;  -- Change Makemake to point
 UPDATE planet SET star_id = 1 WHERE planet_id = 13;  -- Change Eris to point to Arcturus
 ```
 We have also identified several star_id values in the planet table that do not correspond to any existing entries in the startable. 
-- UPDATE planet SET star_id = 1 WHERE star_id IN (7, 8, 9, 11, 12, 13);
 ```
 UPDATE planet SET star_id = 1 WHERE star_id IN (7, 8, 9, 11, 12, 13);
 ```
